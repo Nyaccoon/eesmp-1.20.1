@@ -3,6 +3,7 @@ package com.nyaccoon.eesmp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.nyaccoon.eesmp.item.ModItemGroups;
 import com.nyaccoon.eesmp.item.ModItems;
 
 import net.fabricmc.api.ModInitializer;
@@ -17,7 +18,7 @@ public class EEsmp implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
-
+		ModItemGroups.registerItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
 
