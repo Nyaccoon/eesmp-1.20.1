@@ -1,5 +1,31 @@
 {
-"item.eesmp.shard_of_life": "Shard of Life",
+
 "itemgroup.eesmp.elemental_ethereum_group":"Elemental Ethereum",
-"tooltip.eesmp.shard_of_life":"...and this shard was forged with my blood"
+
+"item.eesmp.shard_of_life": "Shard of Life",
+"tooltip.eesmp.shard_of_life":"...and this shard was forged with my blood.",
+
+"item.eesmp.shard_of_death": "Shard of Death",
+"tooltip.eesmp.shard_of_death":"I had to watch all my friends die...",
+
+"item.eesmp.heart_of_irellia": "Irellia's Heart",
+"tooltip.eesmp.heart_of_irellia":"I watched the world die as my heart was forged in blood.",
+
+"item.eesmp.shard_of_dreams": "Shard of Dreams",
+"tooltip.eesmp.shard_of_dreams":"Within my dreams I asked myself...",
+
+"item.eesmp.shard_of_reality": "Shard of Reality",
+"tooltip.eesmp.shard_of_reality":"...was what I did worth it?",
+
+"item.eesmp.heart_of_reality": "Reality's Heart",
+"tooltip.eesmp.heart_of_reality":"I gave my life for the world, yet I still feel I've failed it.",
+
+"item.eesmp.shard_of_time": "Shard of Time",
+"tooltip.eesmp.shard_of_time":"...and yet I could not find you.",
+
+"item.eesmp.shard_of_space": "Shard of space",
+"tooltip.eesmp.shard_of_space":"I searched for you in a space between time...",
+
+"item.eesmp.heart_of_zuelia": "Zuelia's Heart",
+"tooltip.eesmp.heart_of_zuelia":"I failed to find you at the edge of the universe despite my endless search."
 }

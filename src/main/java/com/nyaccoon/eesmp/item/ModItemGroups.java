@@ -15,6 +15,14 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.elemental_ethereum_group"))
                     .icon(() -> new ItemStack(ModItems.SHARD_OF_LIFE)).entries((displayContext,entries) -> {
                         entries.add(ModItems.SHARD_OF_LIFE);
+                        entries.add(ModItems.SHARD_OF_DEATH);
+                        entries.add(ModItems.SHARD_OF_DREAMS);
+                        entries.add(ModItems.SHARD_OF_REALITY);
+                        entries.add(ModItems.SHARD_OF_SPACE);
+                        entries.add(ModItems.SHARD_OF_TIME);
+                        entries.add(ModItems.HEART_OF_IRELLIA);
+                        entries.add(ModItems.HEART_OF_REALITY);
+                        entries.add(ModItems.HEART_OF_ZUELIA);
                     }).build());
 
     public static void registerItemGroups() {
