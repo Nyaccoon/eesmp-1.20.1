@@ -1,5 +1,4 @@
 package com.nyaccoon.eesmp.item;
-
 import com.nyaccoon.eesmp.EEsmp;
 import com.nyaccoon.eesmp.item.custom.ShardOfLife;
 
@@ -9,9 +8,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
-
 public class ModItems{
-    public static final Item SHARD_OF_LIFE = registerItem("shard_of_life", new ShardOfLife(new Item.Settings().rarity(Rarity.EPIC))); 
+    public static final Item SHARD_OF_LIFE = registerItem("shard_of_life", new ShardOfLife(new Item.Settings().rarity(Rarity.EPIC).maxCount(1))); 
 
     /*private static void addItemToIngredientsItemGroup(FabricItemGroupEntries entries){
         entries.add(SHARD_OF_LIFE);
