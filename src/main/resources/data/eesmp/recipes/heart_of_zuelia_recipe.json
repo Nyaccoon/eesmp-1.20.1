@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "category":"misc",
+    "ingredients":[
+        {
+            "item":"eesmp:shard_of_time"
+        },
+        {
+            "item":"eesmp:shard_of_space"
+        }
+    ],
+    "result":{
+        "item":"eesmp:heart_of_zuelia",
+        "count":1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "category":"misc",
+    "ingredients":[
+        {
+            "item":"eesmp:shard_of_life"
+        },
+        {
+            "item":"eesmp:shard_of_death"
+        }
+    ],
+    "result":{
+        "item":"eesmp:heart_of_irellia",
+        "count":1
+    }
+}

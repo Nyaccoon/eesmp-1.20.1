@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "category":"misc",
+    "ingredients":[
+        {
+            "item":"eesmp:shard_of_reality"
+        },
+        {
+            "item":"eesmp:shard_of_dreams"
+        }
+    ],
+    "result":{
+        "item":"eesmp:heart_of_reality",
+        "count":1
+    }
+}

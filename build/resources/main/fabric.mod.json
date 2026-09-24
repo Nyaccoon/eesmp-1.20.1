@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "eesmp",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "EEsmp",
 	"description": "this is a mod meant for the Elemental Ethereum smp",
 	"authors": [
