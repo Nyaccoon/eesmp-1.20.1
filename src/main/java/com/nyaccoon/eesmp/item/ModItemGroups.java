@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup ElementalEthereumGroup = Registry.register(Registries.ITEM_GROUP, Identifier.of(EEsmp.MOD_ID, "elemental_ethereum_group"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.elemental_ethereum_group"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eesmp.elemental_ethereum_group"))
                     .icon(() -> new ItemStack(ModItems.SHARD_OF_LIFE)).entries((displayContext,entries) -> {
                         entries.add(ModItems.SHARD_OF_LIFE);
                         entries.add(ModItems.SHARD_OF_DEATH);

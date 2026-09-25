@@ -1,4 +1,4 @@
-package com.nyaccoon.eesmp.item.custom;
+package com.nyaccoon.eesmp.item.customItems;
 
 import java.util.List;
 
@@ -10,12 +10,12 @@ import net.minecraft.text.Text;
 import net.minecraft.text.TextColor;
 import net.minecraft.world.World;
 
-public class HeartOfZuelia extends Item {
-    public HeartOfZuelia(Settings settings) {
+public class ShardOfDeath extends Item {
+    public ShardOfDeath(Settings settings) {
         super(settings);
     }
     @Override
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.eesmp.heart_of_zuelia").setStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFED89D))));
+        tooltip.add(Text.translatable("tooltip.eesmp.shard_of_death").setStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFED89D))));
     }
 }

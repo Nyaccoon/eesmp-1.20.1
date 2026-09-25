@@ -1,14 +1,14 @@
 package com.nyaccoon.eesmp.item;
 import com.nyaccoon.eesmp.EEsmp;
-import com.nyaccoon.eesmp.item.custom.HeartOfIrellia;
-import com.nyaccoon.eesmp.item.custom.HeartOfReality;
-import com.nyaccoon.eesmp.item.custom.HeartOfZuelia;
-import com.nyaccoon.eesmp.item.custom.ShardOfDeath;
-import com.nyaccoon.eesmp.item.custom.ShardOfDreams;
-import com.nyaccoon.eesmp.item.custom.ShardOfLife;
-import com.nyaccoon.eesmp.item.custom.ShardOfReality;
-import com.nyaccoon.eesmp.item.custom.ShardOfSpace;
-import com.nyaccoon.eesmp.item.custom.ShardOfTime;
+import com.nyaccoon.eesmp.item.customItems.HeartOfIrellia;
+import com.nyaccoon.eesmp.item.customItems.HeartOfReality;
+import com.nyaccoon.eesmp.item.customItems.HeartOfZuelia;
+import com.nyaccoon.eesmp.item.customItems.ShardOfDeath;
+import com.nyaccoon.eesmp.item.customItems.ShardOfDreams;
+import com.nyaccoon.eesmp.item.customItems.ShardOfLife;
+import com.nyaccoon.eesmp.item.customItems.ShardOfReality;
+import com.nyaccoon.eesmp.item.customItems.ShardOfSpace;
+import com.nyaccoon.eesmp.item.customItems.ShardOfTime;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;

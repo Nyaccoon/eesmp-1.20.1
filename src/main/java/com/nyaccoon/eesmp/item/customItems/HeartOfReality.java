@@ -1,4 +1,4 @@
-package com.nyaccoon.eesmp.item.custom;
+package com.nyaccoon.eesmp.item.customItems;
 
 import java.util.List;
 
