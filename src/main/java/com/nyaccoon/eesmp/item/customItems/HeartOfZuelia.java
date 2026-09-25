@@ -24,9 +24,10 @@ public class HeartOfZuelia extends Item {
     }
         @Override 
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-        if((selected || slot == 39) && entity.isPlayer()){
+        if( entity.isPlayer()){
+
            PlayerEntity player = (PlayerEntity)entity;
-            player.addStatusEffect(new StatusEffectInstance(StatusEffect.byRawId(1),1,1), player);
-        }    
+            if(selected || player.getOffHandStack().isOf(this)) player.addStatusEffect(new StatusEffectInstance(StatusEffect.byRawId(1),1,1), player);
+        }
     }
 }
